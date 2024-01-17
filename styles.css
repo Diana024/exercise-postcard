@@ -1,0 +1,64 @@
+body {
+	background: black;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.postcard {
+	background: white;
+	width: 600px;
+	height: 450px;
+}
+.postcard-header {
+	display: flex;
+	margin: 100;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+h1 {
+	width: 700px;
+	font-size: big;
+	padding: 2%;
+}
+.postcard-body {
+	display: flex;
+	padding: 5px;
+	font-size: medium;
+	border: none;
+}
+
+.body-left {
+	display: block;
+}
+
+.body-left p {
+	padding-left: 3%;
+	padding-right: 5%;
+	font-size: medium;
+	display: block;
+	border: none;
+}
+
+.body-right p {
+	font-size: medium;
+	text-decoration: underline grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(58, 153, 207);
+	border-bottom: rgb(12, 12, 20);
+	padding: 15px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+input {
+	margin: 2%;
+	border: none;
+	border-bottom: 2px solid lightgrey;
+	padding: 2%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
